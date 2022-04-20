@@ -2,6 +2,7 @@ import random
 import numpy as np
 
 rand_val = 1000000000
+dic = {}
 def rand_max(iterable, rand_val, key=None):
 
     if key is None:
@@ -17,6 +18,7 @@ def rand_max(iterable, rand_val, key=None):
         rand_val += 1
         if value == max_v:
             rand_val += 1
+            dic[key] = rand_val
             max_l.append(item)
         elif value > max_v:
             rand_val += 1

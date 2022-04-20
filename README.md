@@ -1,6 +1,7 @@
-### SDE Project
-Anush Deokar 
-Gautum Jain
+### SDE Project 
+Anush Deokar (B19CSE015)
+
+Gautam Jain (B19CSE033)
 
 # Monte Carlo tree
 The Monte Carlo tree search  technique might assist you choose amongst several possibilities. By randomly choosing a small number of queries in ASTs and move with the best likelihood of winning, it avoids examining every conceivable alternative. This is widely used in games like chess where knowing what move to make next is important if you want to win.
@@ -21,7 +22,7 @@ pip install scripy
 ```
 
 ## Using this Libraries for ASTs
-Your query state is described by the root node. You'll utilise this state later in the child_finder and the node_evaluator.
+We have provided Run.py in /unprovised version on entering the virtual environment and installing all the module simple run the python file and same goes for the run_header.py file in /improvised/Main folder.
 
 We'll suppose you have a general query library that can tell you what movements are feasible and allows you to conduct those moves to modify the game's state for the sake of demonstration.
 

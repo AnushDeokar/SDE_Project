@@ -12,7 +12,7 @@ Root = nd.Node(RootState)
 
 if not sys.argv[1]:
   exit('please input dir as argv1')
-time_t = "8.134ms"
+time_t = 0
 class NodeVisitor(ast.NodeVisitor):
     def visit_Str(self, tree_node):
         print("\nTree node:")
